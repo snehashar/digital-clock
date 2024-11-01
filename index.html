@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+</head>
+<style>
+    .clock {
+        background: linear-gradient(rgb(20, 20, 73), rgb(55, 180, 237));
+        height: 20vh;
+        width: 50vh;
+        font-size: 2.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: black;
+        font-family: sans-serif;
+        color: white;
+        flex-direction: row;
+
+    }
+
+    .time-section {
+            text-align: center;
+            font-size: 1em;
+        }
+        .label {
+            font-size: small;
+            color: #f0f0f0;
+
+            
+        }
+</style>
+<body style="display: flex; align-items: center; justify-content: center; margin-top: 10vw; background-color: rgb(139, 200, 219);">
+    <div class="clock">
+        <div class="time-section">
+            <div class="hours">00:</div>
+            <div class="label">hours</div>
+        </div>
+        <div class="time-section">
+            <div class="minutes">00:</div>
+            <div class="label">minute</div>
+        </div>    
+        <div class="time-section">
+            <div class="seconds">00</div>
+            <div class="label">second</div>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
